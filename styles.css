@@ -1,0 +1,324 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the navigation */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Styles for the hero section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles for the featured products section */
+  .featured-products {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .featured-products h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .product {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Styles for the footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+  }
+
+   /* Add advanced hover effect to nav buttons */
+   .nav-button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fffefe;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .nav-button:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  /* Add styles for the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-info,
+  .shop-info,
+  .social-media {
+    margin: 10px;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons li {
+    margin: 5px;
+  }
+
+  .social-icons li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Center the shop name and address */
+  .shop-info {
+    text-align: center;
+  }
+
+     /* Additional CSS specific to the about page */
+     .about {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #f2f2f2;
+      border-radius: 4px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+
+  .about h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-align: center;
+  }
+
+  .about p {
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+  }
+
+  /* Add advanced hover effect to nav buttons */
+  .nav-button {
+      position: relative;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fffefe;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      overflow: hidden;
+  }
+
+  .nav-button:hover {
+      color: rgb(0, 0, 0);
+  }
+
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .contact-info,
+  .shop-info,
+  .social-media {
+      margin: 10px;
+  }
+
+  .social-icons {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  .social-icons li {
+      margin: 5px;
+  }
+
+  .social-icons li a {
+      display: block;
+      width: 30px;
+      height: 30px;
+  }
+
+  /* Center the shop name and address */
+  .shop-info {
+      text-align: center;
+  }
+
+  .contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .success-message {
+    text-align: center;
+    margin-bottom: 30px;
+    color: green;
+  }
+
+  .hide {
+    display: none;
+  }
+
+
+      /* Add advanced hover effect to nav buttons */
+      .nav-button {
+          position: relative;
+          display: inline-block;
+          padding: 10px 20px;
+          color: #fffefe;
+          text-decoration: none;
+          transition: all 0.3s ease;
+          overflow: hidden;
+      }
+
+      .nav-button:hover {
+          color: rgb(0, 0, 0);
+      }
+
+      footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+      }
+
+      .footer-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+
+      .contact-info,
+      .shop-info,
+      .social-media {
+          margin: 10px;
+      }
+
+      .social-icons {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+      }
+
+      .social-icons li {
+          margin: 5px;
+      }
+
+      .social-icons li a {
+          display: block;
+          width: 30px;
+          height: 30px;
+      }
+
+      /* Center the shop name and address */
+      .shop-info {
+          text-align: center;
+      }
+  
