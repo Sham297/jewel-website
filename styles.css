@@ -31,7 +31,7 @@
   /* Styles for the hero section */
   .hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 30px 0;
     background-color: #f2f2f2;
   }
   
@@ -55,7 +55,7 @@
   .featured-products h2 {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
   }
   
   .product {
@@ -93,14 +93,7 @@
     background-color: #555;
   }
   
-  /* Styles for the footer */
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #f2f2f2;
-    font-size: 14px;
-  }
-
+ 
    /* Add advanced hover effect to nav buttons */
    .nav-button {
     position: relative;
@@ -122,6 +115,7 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    font-size: 14px;
   }
 
   .footer-container {
@@ -135,6 +129,7 @@
   .shop-info,
   .social-media {
     margin: 10px;
+    color: rgb(255, 255, 255);
   }
 
   .social-icons {
@@ -142,10 +137,11 @@
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .social-icons li {
-    margin: 5px;
+    margin: 2px;
   }
 
   .social-icons li a {
@@ -163,7 +159,7 @@
      .about {
       max-width: 800px;
       margin: 0 auto;
-      padding: 40px;
+      padding: 80px;
       background-color: #f2f2f2;
       border-radius: 4px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -352,6 +348,18 @@
     
     .message-box button:hover {
         background-color: #45a049;
+    }
+    
+    .logo {
+      width: 150px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .navbutton{
+    
     }
     
   
